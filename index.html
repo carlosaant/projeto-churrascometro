@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>progBr - Projeto Churrascometro</title>
+</head>
+<body>
+    <main>
+        <section class="content-principal">
+            <form>
+                <h2>Churrascômetro Calculator</h2>
+                <div>
+                    <span>Quantidades</span>
+                    <input type="number" min="1" id="tex_num_adulto" placeholder="Adultos">
+                    <input type="number" min="0" id="tex_num_crianca" placeholder="Crianças">
+                    <span>Duração (horas)</span>
+                    <input type="number" min="1" id="tex_num_horas" placeholder="Horas">
+                    <span>Incluir Refrigerante?</span>
+                    <div class="div-radio">
+                        <input type="radio" id="rad_refri_sim" value="sim" name="rad_refri"/>
+                        <label for="rad_refri_sim"><span></span>Sim</label>
+                        <input type="radio" id="rad_refri_nao" value="nao" name="rad_refri" checked/>
+                        <label for="rad_refri_nao"><span></span>Não</label>
+                    </div>
+                    <span>Incluir Cerveja?</span>
+                    <div class="div-radio">
+                        <input type="radio" id="rad_cerveja_sim" value="sim" name="rad_cerveja"/>
+                        <label for="rad_cerveja_sim"><span></span>Sim</label>
+                        <input type="radio" id="rad_cerveja_nao" value="nao" name="rad_cerveja" checked/>
+                        <label for="rad_cerveja_nao"><span></span>Não</label>
+                    </div>
+                </div>
+                <div class="div-bt">
+                    <input type="button" id="bt-calcular" value="Calcular">
+                </div>
+            </form>
+            <div class="mensagem" onclick="closeForm()">ola mundo</div>
+        </section>
+        <section class="content-secundario">
+           <!-- <h1>Churrascômetro</h1> -->
+        </section>
+    </main>
+    <!-- <footer>
+        <p>Developed by: antc.minga</p>
+    </footer> -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+

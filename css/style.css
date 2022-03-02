@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    /* height: 100vh; Note a medida */
+}
+
+main{
+    width: 100%;
+    background-color: rgb(155, 148, 148);
+    background-color: red;
+}
+
+.content-principal{
+    width: 35%;
+    
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 600px;
+
+    display: block;
+    float: left;
+}
+
+.content-principal form{
+    display: block;
+    /* text-align: center; */
+    background-color: white;
+    /* margin: 15px 15px 0px 15px; */
+    /* border-radius: 5px; */
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.content-principal form h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+.content-principal span{
+    max-width: 240px;
+    margin: auto;
+    padding: 10px;
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.content-principal form div{
+    background-color: #203A43;
+    /* text-align: center; */
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.content-principal input[type=number]{
+  display: block;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 12px;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.div-radio{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.content-principal input[type="radio"]{
+    outline: 1px solid transparent;
+    width: 15px;
+    height: 15px;
+}
+.content-principal input[type="radio"] + label{
+    color:#f2f2f2;
+    font-family:Arial, sans-serif;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    cursor:pointer;
+}
+
+.content-principal input[type="radio"] + label span{
+    display:inline-block;
+    width: 20px;
+    height:19px;
+    margin: 0 -15px 0 0;
+}
+
+.div-bt{
+    text-align: center;
+}
+
+#bt-calcular{
+    background-color: #a3a268;
+    border: none;
+    padding: 15px 40px;
+    margin: 5px;
+
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#bt-calcular:hover{
+    background-color: #7e7d51;
+}
+
+
+
+.content-secundario{
+    background-color: #2C5364;
+    background-image: url('../images/barb-backg-principal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65%;
+    
+    height: 600px;
+
+    display: block;
+    float: left;
+
+    box-shadow: -5px 0px 10px 0px #000000;
+    /* overflow: hidden; */
+}
+
+/* .content-secundario h1{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    transform: rotate(-15deg);
+
+    font-size: 6rem;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+
+    text-shadow: 2px 3px 3px black;
+
+} */
+
+.mensagem {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .mensagemDiv {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    right: 25%;
+    margin: auto;
+    max-width: 500px;
+    max-height: 230px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #203A43;
+  
+    text-align: center;
+  }
+  .mensagemDiv h1{
+    font-size: 24px;
+    font-weight: bold;
+    color:#402E32;
+    background-color: #DFE0DF;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .mensagemDiv p{
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: #FFF;
+  }
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    /* position: fixed; */
+    height: 100vh;
+
+    text-align: center;
+}
+
+footer p{
+    color: #FFF;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    
+}
