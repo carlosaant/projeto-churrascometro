@@ -2,7 +2,7 @@
  
  Realiza o calculo das quantidades necessarias de Carne, Refrigerante, Cerveja de acordo com as informações inseridas.
  
- * Utiliza as Tecnologias:
+ Utiliza as Tecnologias:
  - HTML
  - CSS
  - Js
